@@ -1,0 +1,31 @@
+[project]
+name = "streamstats"
+version = "0.1.0"
+description = "Streaming CSV and JSONL event analyzer"
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=8.4.2",
+    "typer>=0.27.3",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+extend-exclude = [".tools"]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "pre-commit>=4.6.2",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.3",
+]

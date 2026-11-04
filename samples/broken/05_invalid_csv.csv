@@ -1,0 +1,4 @@
+timestamp,level,source,message
+2026-11-04T10:00:00Z,INFO,app,До ошибки
+2026-11-04T10:01:00Z,ERROR,database,"Ошибка кавычек"x
+2026-11-04T10:02:00Z,INFO,app,После ошибки

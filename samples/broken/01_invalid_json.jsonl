@@ -1,0 +1,8 @@
+{"timestamp":"2026-11-04T10:00:00Z","level":"INFO","source":"app","message":"Запуск"}
+{"timestamp":"2026-11-04T10:01:00Z","level":"DEBUG","source":"app","message":"Проверка"}
+{"timestamp":"2026-11-04T10:02:00Z","level":"INFO","source":"database","message":"Соединение установлено"}
+{"timestamp":"2026-11-04T10:03:00Z","level":"WARNING","source":"app","message":"Предупреждение"}
+{"timestamp":"2026-11-04T10:04:00Z","level":"ERROR","source":"database","message":"Ошибка запроса"}
+{"timestamp":"2026-11-04T10:05:00Z","level":"INFO","source":"app","message":"Продолжаем"}
+{"timestamp":"2026-11-04T10:06:00Z","level":"INFO","source":"app","message":"Нет закрывающей скобки"
+{"timestamp":"2026-11-04T10:07:00Z","level":"INFO","source":"app","message":"Корректное событие после ошибки"}
